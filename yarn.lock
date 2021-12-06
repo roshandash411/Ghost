@@ -1375,6 +1375,14 @@
     lodash "^4.17.21"
     uuid "^8.3.2"
 
+"@tryghost/errors@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.1.1.tgz#dc38e40591b018b0ac6b5742f7bab5d379c67e60"
+  integrity sha512-na0qB5sdy1BWgquzn+m530ohJ3fTeF451xUTR7I8b76TBEL9snnIkXCv5Qdjmnevmgod7aAGsHi2syyKFlvEvQ==
+  dependencies:
+    lodash "^4.17.21"
+    uuid "^8.3.2"
+
 "@tryghost/express-dynamic-redirects@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@tryghost/express-dynamic-redirects/-/express-dynamic-redirects-0.2.2.tgz#a83d7fe612453ca9d1e018d57548b421b039e4a1"
@@ -1637,13 +1645,13 @@
   optionalDependencies:
     promise.allsettled "^1.0.5"
 
-"@tryghost/minifier@0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@tryghost/minifier/-/minifier-0.1.7.tgz#1e2bfbd51c23bbafa9ea3c8a3406bcf7935820e0"
-  integrity sha512-WHAndFqytZ/bRcufk0Ek65st2cX6QrGiY/sAsrZlDfWMPeVTqUnTWoYVH/jv3/kfUSeKEGVCxhsbXRX6BuewCA==
+"@tryghost/minifier@0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@tryghost/minifier/-/minifier-0.1.8.tgz#51e9f906f823f3e76c992741d89cd42dfd87d610"
+  integrity sha512-0T0aSiCgUsjfQeBBkjp+BntnOgwhPwtC4xNsSrajYEL86Q2dkpTtJaKkRMvZnPQW77wD8igEtoOswV0Fw0e/mA==
   dependencies:
     "@tryghost/debug" "^0.1.8"
-    "@tryghost/errors" "^1.1.0"
+    "@tryghost/errors" "^1.1.1"
     "@tryghost/tpl" "^0.1.7"
     csso "4.2.0"
     terser "^5.9.0"
