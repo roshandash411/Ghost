@@ -1151,12 +1151,12 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"
   integrity sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==
 
-"@tryghost/adapter-manager@0.2.24":
-  version "0.2.24"
-  resolved "https://registry.yarnpkg.com/@tryghost/adapter-manager/-/adapter-manager-0.2.24.tgz#003a014f9a3fb588382cf97c01d240fc285fa1fa"
-  integrity sha512-6FnNaTsp8qFZCFguX9eSrMgY2sY8ch5C+Y1dwE/Ma7NbytPb0nqXD8qzi76EjhBtk7iEPKxr67a03C0JEFYHpg==
+"@tryghost/adapter-manager@0.2.25":
+  version "0.2.25"
+  resolved "https://registry.yarnpkg.com/@tryghost/adapter-manager/-/adapter-manager-0.2.25.tgz#982517e833b31aab5cd3fddf985366aed6eaf594"
+  integrity sha512-+mGb7A+srCAJBtz7+1/HjIR1s0NYa91IqezVlC5pove0Qt4myvCMueKHTgIl1qW2EFK1T52aEVngZSTHbCtkaQ==
   dependencies:
-    "@tryghost/errors" "^1.1.0"
+    "@tryghost/errors" "^1.1.1"
 
 "@tryghost/admin-api-schema@2.6.1":
   version "2.6.1"
@@ -1371,6 +1371,14 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.1.0.tgz#3288eb30ed148c1ada7d3b0e818f5af03c531cbe"
   integrity sha512-Dssqhw4f/xHFDqbkm0bHCT/gVBGsgoRfzgT7bj0urMD83olrHKdIqal9iKswWLeKzfdhyqM+cW8J7lmSaWHBMA==
+  dependencies:
+    lodash "^4.17.21"
+    uuid "^8.3.2"
+
+"@tryghost/errors@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.1.1.tgz#dc38e40591b018b0ac6b5742f7bab5d379c67e60"
+  integrity sha512-na0qB5sdy1BWgquzn+m530ohJ3fTeF451xUTR7I8b76TBEL9snnIkXCv5Qdjmnevmgod7aAGsHi2syyKFlvEvQ==
   dependencies:
     lodash "^4.17.21"
     uuid "^8.3.2"
